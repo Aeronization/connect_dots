@@ -1,0 +1,14 @@
+# Client payload messages.
+INITIALIZE = 'INITIALIZE'
+NODE_CLICKED = 'NODE_CLICKED'
+
+# Server response messages.
+VALID_START_NODE = 'VALID_START_NODE'
+INVALID_START_NODE = 'INVALID_START_NODE'
+VALID_END_NODE = 'VALID_END_NODE'
+INVALID_END_NODE = 'INVALID_END_NODE'
+GAME_OVER = 'GAME_OVER'
+
+VALID_START_NODE_MESSAGE = 'Select a second node to complete the line.'
+INVALID_START_NODE_MESSAGE = 'Not a valid starting position.'
+INVALID_END_NODE = 'Invalid move!'
